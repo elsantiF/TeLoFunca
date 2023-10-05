@@ -1,0 +1,21 @@
+{
+    "name": "Dark Souls 3",
+    "developer": "From Software",
+    "date": "12 abril 2016",
+    "cat": "Rol de acción",
+    "req_min":{
+        "cpu": "AMD A8 3870 3.6 Ghz o Intel Core i3 2100 3.1Ghz",
+        "os": "Windows 7, 8.1 o 10 64 bit",
+        "ram": "8GB RAM",
+        "gpu": "NVIDIA GeForce GTX 465 o ATI Radeon TM HD 6870",
+        "hdd": "50GB de espacio libre"
+    },
+	"req_rec":{
+        "cpu": "AMD FX 8150 3.6 GHz o Intel Core i7 2600 3.4 GHz",
+        "os": "Windows 7, 8.1 o 10 64 bit",
+        "ram": "8GB RAM",
+        "gpu": "NVIDIA GeForce® GTX 750 o ATI Radeon HD 7850",
+        "hdd": "50GB de espacio libre"
+    },
+    "img": ["darksouls3 1.jpg","darksouls3 2.jpg","darksouls3 3.jpg","darksouls3 4.jpg","darksouls3 5.jpg","darksouls3 6.jpg","darksouls3 7.jpg","darksouls3 8.jpg","darksouls3 9.jpg","darksouls3 10.jpg"]
+}

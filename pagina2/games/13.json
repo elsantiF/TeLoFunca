@@ -1,0 +1,14 @@
+{
+    "name": "Half Life 2",
+    "developer": "Valve",
+    "date": "16 de Noviembre de 2004",
+    "cat": "FPS, Accion, Un Jugador",
+    "req_min":{
+        "cpu": "1.7GHz",
+        "os": "Windows Vista/Xp",
+        "ram": "512MB RAM",
+        "gpu": "Compatible con DirectX 8.1 (requiere soporte para SSE)",
+        "hdd": "6.5GB disponibles"
+    },
+    "img": ["half life 2 1.jpg","half life 2 2.jpg","half life 2 3.jpg","half life 2 4.jpg","half life 2 5.jpg","half life 2 6.jpg","half life 2 7.jpg","half life 2 8.jpg","half life 2 9.jpg","half life 2 10.jpg"]
+}

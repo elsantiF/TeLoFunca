@@ -1,0 +1,14 @@
+{
+    "name": "PUBG",
+    "developer": "Avalanche Estudios",
+    "date": "1 de diciembre de 2015",
+    "cat": "Accion, Aventura, Shooter 3° persona",
+    "req_min":{
+        "cpu": "Intel Core i3-4340 o AMD FX-6300",
+        "os": "Windows 7, 8.1 o 10 64 bit",
+        "ram": "6GB RAM",
+        "gpu": "nVidia GeForce GTX 660 2GB / AMD Radeon HD 7850 2GB",
+        "hdd": "30GB disponibles"
+    },
+    "img": ["pubg1.jpg","pubg2.jpg","pubg3.jpg","pubg4.jpg","pubg5.jpg","pubg6.jpg","pubg7.jpg","pubg8.jpg","pubg9.jpg","pubg10.jpg"]
+}

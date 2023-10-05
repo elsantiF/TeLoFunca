@@ -1,0 +1,14 @@
+{
+    "name": "Minecraft",
+    "developer": "Mojang",
+    "date": "8 de noviembre de 2011",
+    "cat": "Aventura accion, Supervivencia",
+    "req_min":{
+        "cpu": "CPU: Intel Pentium D o AMD Athlon 64 (K8) 2.6 GHz.",
+        "os": "Windows 7",
+        "ram": "2GB RAM",
+        "gpu": "GPU (integrado): Intel HD Graphics o AMD (anteriormente ATI) Radeon HD Graphics con OpenGL 2.1.",
+        "hdd": "200 MB"
+    },
+    "img": ["minecraft1.jpg","minecraft2.jpg","minecraft3.jpg","minecraft4.jpg","minecraft5.jpg","minecraft6.jpg","minecraft7.jpg","minecraft8.jpg","minecraft9.jpg","minecraft10.jpg"]
+}

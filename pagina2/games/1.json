@@ -1,0 +1,22 @@
+{
+    "name": "Grand Theft Auto V",
+    "developer": "Rockstar",
+    "date": "PlayStation 3 y Xbox 360 17 de septiembre de 2013 PlayStation 4 y Xbox One 18 de noviembre de 2014 Microsoft Windows 14 de abril de 2015",
+    "cat": "Acción-aventura, Videojuego de mundo abierto",
+    "req_min":{
+        "cpu": "Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz",
+        "os": "Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1, Windows Vista 64 Bit Service Pack 2* (*tarjeta de vídeo NVIDIA recomendada para Windows Vista)",
+        "ram": "4 GB",
+        "gpu": "NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)",
+        "hdd": "65GB"
+    },
+	"req_rec":{
+        "cpu": "Intel Core i5 3470 @ 3.2GHZ (4 CPUs) / AMD X8 FX-8350 @ 4GHZ (8 CPUs)",
+        "os": "Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1",
+        "ram": "8GB",
+        "gpu": "NVIDIA GTX 660 2GB / AMD HD7870 2GB",
+        "hdd": "65GB"
+    },
+    "img": ["gta v 1.jpg","gta v 2.jpg","gta v 3.jpg","gta v 4.jpg","gta v 5.jpg","gta v 6.jpg","gta v 7.jpg","gta v 8.jpg","gta v 9.jpg","gta v 10.jpg"]
+
+}

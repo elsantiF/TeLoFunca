@@ -1,0 +1,302 @@
+.site-wrapper {
+  	display: flex;
+  	flex-direction: column;
+  	min-height: 100vh;
+	background-image: url("../images/ladrillo.png");
+	background-color: #0b0b0b;
+	background-blend-mode: soft-light;
+}
+
+main {
+  	flex: 1;
+}
+
+body {
+  	font-family: 'Roboto', sans-serif;
+  	margin: 0;
+}
+
+* {
+  	box-sizing: border-box;
+}
+
+header, footer{
+  	padding: 16px;
+}
+
+main {
+	padding: 0px;
+	margin: 12px;
+}
+
+h1, p {
+  	margin-bottom: 24px;
+}
+
+p {
+  	line-height: 1.4;
+}
+
+label {
+  	font-weight: 700;
+}
+
+header {
+  	color: white;
+  	background-color: #1d1d1d;
+  	text-align: center;
+}
+
+header > h1{
+	letter-spacing: 20px;
+	font-size: 3.35em;
+}
+
+header > a > button{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: solid #ffffff;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 700;
+	height: 2em;
+	width: 27em;
+	margin: 0 20px;
+	padding: 0;
+	transition: transform 100ms ease, 	border-bottom-color 100ms ease;
+}
+
+header > a > button:hover{
+	cursor: pointer;
+	transform: scale(1.1);
+	border-bottom-color: dodgerblue;
+}
+
+header > a > button:active{
+	transform: scale(0.9);
+	filter: blur(1px);
+	border-bottom-color: chartreuse;
+}
+
+footer {
+  	color: white;
+  	background-color: #1d1d1d;
+}
+
+.center{
+	text-align: center;
+}
+
+.desc{
+	margin: 0 5em;
+	text-align: center;
+}
+
+.game-select{
+	display: flex;
+	flex-direction: column;
+	padding: 0 24px;
+	text-align: center;
+}
+
+.game-select > select{
+	align-self: center;
+	width: 30vw;
+	border: solid #ffffff;
+}
+
+.rec_style_empty{
+	display: none;
+}
+
+.rec_style_view{
+	display: initial;
+	width: 50%;
+}
+
+.game_name_title{
+	text-align: center;
+	margin-bottom: 2em;
+	font-size: 3em;
+	letter-spacing: 20px;
+}
+
+.game_data_p{
+	font-size: 1.5em;
+	letter-spacing: 3px;
+}
+
+.text_uppercase{
+	text-transform: uppercase;
+}
+
+/*.dark_mode_c{
+	filter: invert(100%);
+}*/
+
+.trans_fliter{
+	transition: border ease 0.3s;
+	transition: color ease 0.3s;
+	transition: background-color ease 0.3s;
+}
+
+.image{
+	width: 75%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+}
+
+#image_controls{
+	display: flex;
+	flex-direction: row;
+}
+
+#image_controls > button{
+	margin-left: 3em;
+	margin-right: 3em;
+	height: 5em;
+	align-self: center;
+	width: 5em;
+	border-radius: 100%;
+	border: solid #d0d0d0;
+	font-size: 1.2em; 
+}
+
+.switch {
+  	position: relative;
+  	display: inline-block;
+  	width: 60px;
+  	height: 20px;
+}
+
+.switch input {
+	display:none;
+}
+
+.slider {
+  	position: absolute;
+  	cursor: pointer;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	background-color: white;
+  	-webkit-transition: .4s;
+  	transition: .4s;
+}
+
+.slider:before {
+  	position: absolute;
+  	content: "";
+  	height: 12px;
+  	width: 26px;
+  	left: 4px;
+  	bottom: 4px;
+  	background-color: #bababa;
+  	-webkit-transition: .4s;
+  	transition: .4s;
+}
+
+input:checked + .slider {
+ 	background-color: rgb(52, 125, 185);
+}
+
+input:focus + .slider {
+  	box-shadow: 0 0 1px rgb(52, 125, 185);
+}
+
+input:checked + .slider:before {
+  	-webkit-transform: translateX(26px);
+  	-ms-transform: translateX(26px);
+  	transform: translateX(26px);
+}
+
+h6, h5, h4, h3, h2, h1, p, td{
+	color: white;
+}
+
+.social-bar {
+	position: fixed;
+	right: 0;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+	display: none;
+}
+
+.icon {
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-facebook {
+	background: #3C5A99;
+}
+
+.icon-twitter {
+	background: #1da1f2;
+}
+
+.icon-youtube {
+	background: #FF0000;
+}
+
+.icon:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
+}
+
+#video{
+	width: 75%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 2em;
+}
+
+#video-c{
+	display: flex;
+	flex-direction: row;
+}
+
+#cont-down{
+	text-align: center;
+	margin-top: 5em;
+}
+
+#download{
+	font-size: 3em;
+	text-transform: uppercase;
+	text-decoration: underline;
+	color: white;
+}
+
+@media screen and (max-width:900px){
+	.game-select > select{
+		width: 75vw;
+	}
+}
+
+@media screen and (max-width:1300px){
+	header > a > button{
+		width: 16em;
+	}
+}

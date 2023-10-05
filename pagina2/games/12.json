@@ -1,0 +1,21 @@
+{
+"name": "Garrys Mods",
+"developer": "Facepunch Studios",
+"date": "29 de Noviembre de 2006",
+"cat": "SandBox",
+"req_min":{
+    "cpu": "1.8GHz",
+    "os": "Windows Vista/Xp",
+    "ram": "2GB RAM",
+    "gpu": "Compatible con DirectX® 9 (Requiere soporte para SSE)",
+    "hdd": "5GB disponibles"
+    },
+"req_rec":{
+    "cpu": "2.5GHz",
+    "os": "Windows 7/8/8.1/10",
+    "ram": "8GB RAM",
+    "gpu": "1GB dedicated VRAM or bette",
+    "hdd": "10GB disponibles"
+    },
+    "img": ["gmod2.jpg","gmod3.jpg","gmod4.jpg","gmod5.jpg","gmod6.jpg","gmod7.jpg","gmod8.jpg","gmod9.jpg","gmod10.jpg"]
+}

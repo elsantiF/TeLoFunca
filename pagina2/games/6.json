@@ -1,0 +1,18 @@
+{
+    "name": "Fallout 3",
+    "developer": "Bethesda Softworks",
+    "date": "30 de octubre de 2008",
+    "cat": "Rol, Acción RPG, Combate por turnos (Ciencia ficción y Apocalíptico)",
+    "req_min":{
+        "cpu": "2.4 Ghz Intel Pentium 4 o similar",
+        "os": "Windows XP o Vista",
+        "ram": "1GB RAM (XP)/ 2GB RAM (Vista)",
+        "gpu": "Tarjeta Gráfica Direct X 9.0c o compatible, con 256MB RAM (NVIDIA 6800 o superior/ATI X850 o superior)"
+    },
+	"req_rec":{
+        "cpu": "Procesador Intel Core 2 Duo",
+        "ram": "2GB RAM",
+        "gpu": "Tarjeta Gráfica Direct X 9.0c o compatible, con 512MB RAM (NVIDIA 8800 o ATI 3800)"
+    },
+    "img": ["fallout3 1.jpg","fallout3 2.jpg","fallout3 3.jpg","fallout3 4.jpg","fallout3 5.jpg","fallout3 6.jpg","fallout3 7.jpg","fallout3 8.jpg","fallout3 9.jpg","fallout3 10.jpg"]
+}

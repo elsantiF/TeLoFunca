@@ -1,0 +1,13 @@
+{
+    "name": "Fornite",
+    "developer": "Epic Games",
+    "date": "25 de julio de 2017",
+    "cat": "Battle Royale",
+	"req_rec":{
+        "cpu": "Core i5 2.8 GHz",
+        "os": "Windows 7, 8, o 10 de 64 bits.",
+        "ram": "8GB",
+        "gpu": "Nvidia GTX 660 o AMD Radeon HD 7870 con GPU DX11 equivalente"
+    },
+    "img": ["fornite1.jpg","fornite2.jpg","fornite3.jpg","fornite4.jpg","fornite5.jpg","fornite6.jpg","fornite7.jpg","fornite8.jpg","fornite9.jpg","fornite10.jpg"]
+}

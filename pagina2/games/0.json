@@ -1,0 +1,16 @@
+{
+    "name": "Warframe",
+    "developer": "Digital Extremes",
+    "date": "25 de marzo de 2013",
+    "cat": "Acción en tercera persona, Acción, MMORPG",
+    "req_min":{
+        "cpu": "Intel Core 2 Duo e6400 o AMD Athlon x64 4000+",
+        "os": "Windows XP SP 3 o superior",
+        "ram": "2GB",
+        "gpu": "Nvidia GeForce 8600 GT o ATI Radeon HD 3600",
+        "hdd": "2GB de espacio libre",
+        "other": "Conexión a Internet de banda ancha"
+    },
+    "img": ["warframe1.jpg", "warframe2.jpg","warframe3.jpg","warframe4.jpg","warframe5.jpg","warframe6.jpg","warframe7.jpg","warframe8.jpg","warframe9.jpg","warframe10.jpg"],
+    "vid": "Warframe.mp4"
+}

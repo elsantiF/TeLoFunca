@@ -1,0 +1,21 @@
+{
+    "name": "Assessin's creed: Black Flag",
+    "developer": "Ubisoft",
+    "date": "25 de abril de 2017",
+    "cat": "Survival Horror",
+    "req_min":{
+        "cpu": "Intel Core2Quad Q8400 @ 2.6 GHz o AMD Athlon II X4 620 @ 2.6 GHz.",
+        "os": "Windows 7",
+        "ram": "2GB RAM",
+        "gpu": "Nvidia GeForce GTX 260 o AMD Radeon HD 4870 (512MB VRAM con Shader Model 4.0 o superior).",
+        "hdd": "30 GB espacio disponible."
+    },
+    "req_rec":{
+        "cpu": "Intel Core i5 2400S@2.5 GHz o AMD Phenom II x4 940@3.0 GHz o superior",
+        "os": "Windows 7",
+        "ram": "4 GB RAM",
+        "gpu": "Nvidia GeForce GTX 470 o AMD Radeon HD 5850 (1024 MB VRAM con Shader Model 5.0) o superior",
+        "hdd": "30 gb disponibles."
+    },
+    "img": ["assessin's creed BF 1.jpg","assessin's creed BF 2.jpg","assessin's creed BF 3.jpg","assessin's creed BF 4.jpg","assessin's creed BF 5.jpg","assessin's creed BF 6.jpg","assessin's creed BF 7.jpg","assessin's creed BF 8.jpg","assessin's creed BF 9.jpg","assessin's creed BF 10.jpg"]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Fallout New Vegas",
+    "developer": "Obsidian Entertainment",
+    "date": "10 de octubre de 2010",
+    "cat": "Rol, Aventura, Shooter 1° persona, Mundo Abierto",
+    "req_min":{
+        "cpu": "Dual Core a 2.0 GHz",
+        "os": "Windows 7/Vista/Xp",
+        "ram": "2GB RAM",
+        "gpu": "Familia nVidia GeForce 6, familia ATI 1300XT",
+        "hdd": "10GB disponibles"
+    },
+    "img": ["fallout NW 1.jpg","fallout NW 2.jpg","fallout NW 3.jpg","fallout NW 4.jpg","fallout NW 5.jpg","fallout NW 6.jpg","fallout NW 7.jpg","fallout NW 8.jpg","fallout NW 9.jpg","fallout NW 10.jpg"]
+}

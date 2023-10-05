@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/estilos.css">
+    <link rel="shortcut icon" href="../../icono.png">
+    <title></title>
+</head>
+
+<body onload="load();">    
+<div class="site-wrapper" id="body_div">
+    <header>
+            <h1 class="text_uppercase">Te lo funca?</h1>
+            <a href="../../pagina1/index.html"><button>Inicio</button></a>
+            <a href="../../pagina2/index.html"><button>Lista de juegos</button></a>
+            <a href="../../pagina3/index.html"><button>Como funciona</button></a>
+    </header>
+    <main>
+        <p id="wait-select">Espere mientras carga la página</p>
+        <div id="game" style="display: none;">
+            <h1 id="name" class="game_name_title text_uppercase"></h1>
+            <div id="image_controls" style="display: none;">
+                <button onclick="image_back();"><</button>
+                <img src="" id="image">
+                <button onclick="image_next();">></button>
+            </div>
+            <div id="video-c" style="display: none;">
+                <video id="video" src="" controls></video>
+            </div>
+            <h2 class="game_data_p text_uppercase">Desarrollador: </h2><p id="developer"></p>
+            <hr>
+            <h2 class="game_data_p text_uppercase">Fecha de lanzamiento: </h2><p id="date"></p>
+            <hr>
+            <h2 class="game_data_p text_uppercase">Categoría: </h2><p id="cat"></p>
+            <hr>
+            <div id="req">
+                <div id="cont"  style="display: flex; width: 100%; flex-direction: row; flex: 0 0 100%">
+                    
+                    <div id="min" class="rec_style_empty">
+                        <div style="text-align: center">
+                            <h2 class="game_data_p text_uppercase">Requisitos Mínimos</h2>
+                        </div>
+                        <div>
+                            <table style="width: 100%;">
+                                <tr id="tr_min_cpu">
+                                    <td style="width: 20%;"><h4>CPU:</h4></td>
+                                    <td id="min_cpu" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_min_os">
+                                    <td style="width: 20%;"><h4>Sistema Operativo:</h4></td>
+                                    <td id="min_os" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_min_ram">
+                                    <td style="width: 20%;"><h4>Memoria RAM:</h4></td>
+                                    <td id="min_ram" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_min_gpu">
+                                    <td style="width: 20%;"><h4>Tarjeta Gráfica:</h4></td>
+                                    <td id="min_gpu" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_min_hdd">
+                                    <td style="width: 20%;"><h4>Disco Duro:</h4></td>
+                                    <td id="min_hdd" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_min_other">
+                                    <td style="width: 20%;"><h4>Otros:</h4></td>
+                                    <td id="min_other" style="align-self: flex-end"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div id="rec" class="rec_style_empty">
+                        <div style="text-align: center">
+                            <h2 class="game_data_p text_uppercase">Requisitos Recomendados</h2>
+                        </div>
+                        <div>
+                            <table style="width: 100%;">
+                                <tr id="tr_rec_cpu">
+                                    <td style="width: 20%;"><h4>CPU:</h4></td>
+                                    <td id="rec_cpu" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_rec_os">
+                                    <td style="width: 20%;"><h4>Sistema Operativo:</h4></td>
+                                    <td id="rec_os" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_rec_ram">
+                                    <td style="width: 20%;"><h4>Memoría RAM:</h4></td>
+                                    <td id="rec_ram" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_rec_gpu">
+                                    <td style="width: 20%;"><h4>Tarjeta Gráfica:</h4></td>
+                                    <td id="rec_gpu" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_rec_hdd">
+                                    <td style="width: 20%;"><h4>Disco Duro:</h4></td>
+                                    <td id="rec_hdd" style="align-self: flex-end"></td>
+                                </tr>
+                                <tr id="tr_rec_other">
+                                    <td style="width: 20%;"><h4>Otros:</h4></td>
+                                    <td id="rec_other" style="align-self: flex-end"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-bar">
+            <a href="https://www.facebook.com" class="icon icon-facebook" target="_blank">
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                width="1em" height="1em" viewBox="0 0 266.893 266.895" enable-background="new 0 0 266.893 266.895" xml:space="preserve">
+                    <path id="Blue_1_" fill="#FFFFFF" d="M248.082,262.307c7.854,0,14.223-6.369,14.223-14.225V18.812
+                    c0-7.857-6.368-14.224-14.223-14.224H18.812c-7.857,0-14.224,6.367-14.224,14.224v229.27c0,7.855,6.366,14.225,14.224,14.225 H248.082z"/>
+                    <path id="f" fill="#3C5A99" d="M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935
+                    l20.596-0.009V45.045c-3.562-0.474-15.788-1.533-30.012-1.533c-29.695,0-50.025,18.126-50.025,51.413v28.684h-33.585v38.895h33.585 v99.803H182.409z"/>
+                </svg>
+            </a>
+                
+            <a href="https://www.twitter.com" class="icon icon-twitter" target="_blank">
+                <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+                version="1.1" id="svg3626" viewBox="0 0 300.00006 244.18703" height="1em" width="1em">
+                    <g transform="translate(-539.17946,-568.85777)" id="layer1">
+                        <path id="path3611" fill="#FFFFFF" d="m 633.89823,812.04479 c 112.46038,0 173.95627,-93.16765 173.95627,-173.95625 0,-2.64628 -0.0539,-5.28062 -0.1726,-7.90305 11.93799,-8.63016 22.31446,-19.39999 30.49762,-31.65984 -10.95459,4.86937 -22.74358,8.14741 -35.11071,9.62551 12.62341,-7.56929 22.31446,-19.54304 26.88583,-33.81739 -11.81284,7.00307 -24.89517,12.09297 -38.82383,14.84055 -11.15723,-11.88436 -27.04079,-19.31655 -44.62892,-19.31655 -33.76374,0 -61.14426,27.38052 -61.14426,61.13233 0,4.79784 0.5364,9.46458 1.58538,13.94057 -50.81546,-2.55686 -95.87353,-26.88582 -126.02546,-63.87991 -5.25082,9.03545 -8.27852,19.53111 -8.27852,30.73006 0,21.21186 10.79366,39.93837 27.20766,50.89296 -10.03077,-0.30992 -19.45363,-3.06348 -27.69044,-7.64676 -0.009,0.25652 -0.009,0.50661 -0.009,0.78077 0,29.60957 21.07478,54.3319 49.0513,59.93435 -5.13757,1.40062 -10.54335,2.15158 -16.12196,2.15158 -3.93364,0 -7.76596,-0.38716 -11.49099,-1.1026 7.78383,24.2932 30.35457,41.97073 57.11525,42.46543 -20.92578,16.40207 -47.28712,26.17062 -75.93712,26.17062 -4.92898,0 -9.79834,-0.28036 -14.58427,-0.84634 27.05868,17.34379 59.18936,27.46396 93.72193,27.46396" />
+                    </g>
+                </svg>
+            </a>
+    
+            <a href="https://www.gmail.com" class="icon icon-youtube" target="_blank">
+                <svg version="1.1" id="Слой_1" x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 400 400" xml:space="preserve"
+                width="1em" height="1em">
+                    <g id="g5355">
+                        <rect id="rect4" style="fill:#ff0000;fill-opacity:1" x="0" y="0" ry="49.137924" />
+                        <g transform="matrix(5.9026317,0,0,5.9026317,521.39665,-711.31763)" id="g4167">
+                            <path style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 149.9375,79.222656 c 0,0 -63.218849,5.9e-5 -79.085938,4.123047 -8.495787,2.373802 -15.491408,9.3695 -17.865234,17.990237 -4.122953,15.8671 -4.123047,48.72656 -4.123047,48.72656 0,0 9.4e-5,32.9842 4.123047,48.60156 2.373826,8.62062 9.244506,15.49138 17.865234,17.86524 15.99203,4.24788 79.085938,4.24804 79.085938,4.24804 0,0 63.34418,-5e-5 79.21094,-4.12304 8.62079,-2.37381 15.49133,-9.11966 17.74023,-17.86524 4.24793,-15.74232 4.24805,-48.60156 4.24805,-48.60156 0,0 0.12484,-32.98446 -4.24805,-48.85156 -2.2489,-8.620737 -9.11944,-15.491334 -17.74023,-17.740237 -15.86676,-4.372847 -79.21094,-4.373047 -79.21094,-4.373047 z m -20.11523,40.480464 52.59961,30.35938 -52.59961,30.23438 0,-60.59376 z"
+                            transform="matrix(0.16941596,0,0,0.16941596,-88.332912,120.50856)"
+                            id="path4156"
+                            inkscape:connector-curvature="0" />
+                        </g>
+                    </g>
+                </svg>
+            </a>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</div>
+
+</body>
+<script>
+
+    var imagesArray;
+    var selectedImage = 0;
+    var json;
+
+    function image_back(){
+        selectedImage = (selectedImage <= 0) ? imagesArray.length - 1 : selectedImage -= 1;
+        document.getElementById("image").src = "imagenes/" + json.img[selectedImage];
+    }
+
+    function image_next(){
+        selectedImage = (selectedImage >= imagesArray.length - 1) ? 0 : selectedImage += 1;
+        document.getElementById("image").src = "imagenes/" + json.img[selectedImage];
+    }
+
+    document.addEventListener("keydown", function(e){
+        if(e.code == "ArrowLeft") image_back();
+        if(e.code == "ArrowRight") image_next();
+    })
+
+    function load(){
+        var url = new URLSearchParams(window.location.search);
+        var id = url.get("id");
+        if(id != null  && !Number.isNaN((id = Number.parseInt(id)))){
+            var xhttp = new XMLHttpRequest();
+            xhttp.responseType = "text";
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    json = JSON.parse(this.responseText);
+                    
+                    document.title                                 = json.name;
+                    document.getElementById("name").innerHTML      = json.name;
+                    document.getElementById("developer").innerHTML = json.developer;
+                    document.getElementById("date").innerHTML      = json.date;
+                    document.getElementById("cat").innerHTML       = json.cat;
+
+                    if(json.img){
+                        document.getElementById("image").src = "imagenes/" + json.img[selectedImage];
+                        document.getElementById("image_controls").style = "";
+                        document.getElementById("image").classList.add("image");
+                        imagesArray = json.img;
+                    }
+
+                    if(json.vid){
+                        document.getElementById("video").src = "videos/" + json.vid;
+                        document.getElementById("video-c").style = "";
+                    }
+
+                    if(imagesArray){
+                        if(imagesArray.length == 1) document.getElementById("image_controls").childNodes.forEach(v => {
+                            if(v.nodeName == "BUTTON") v.style = "display: none;";
+                        }); 
+                    }
+
+                    if(json.req_min){
+                        if(!json.req_min.cpu)   document.getElementById("tr_min_cpu").style   = "display: none";
+                        if(!json.req_min.os)    document.getElementById("tr_min_os").style    = "display: none";
+                        if(!json.req_min.ram)   document.getElementById("tr_min_ram").style   = "display: none";
+                        if(!json.req_min.gpu)   document.getElementById("tr_min_gpu").style   = "display: none";
+                        if(!json.req_min.hdd)   document.getElementById("tr_min_hdd").style   = "display: none";
+                        if(!json.req_min.other) document.getElementById("tr_min_other").style = "display: none";
+
+                        document.getElementById("min_cpu").innerHTML   = json.req_min.cpu;
+                        document.getElementById("min_os").innerHTML    = json.req_min.os;
+                        document.getElementById("min_ram").innerHTML   = json.req_min.ram;
+                        document.getElementById("min_gpu").innerHTML   = json.req_min.gpu;
+                        document.getElementById("min_hdd").innerHTML   = json.req_min.hdd;
+                        document.getElementById("min_other").innerHTML = json.req_min.other;
+                        document.getElementById("min").classList       = "rec_style_view";
+                    }
+
+                    if(json.req_rec){
+                        if(!json.req_rec.cpu)   document.getElementById("tr_rec_cpu").style   = "display: none";
+                        if(!json.req_rec.os)    document.getElementById("tr_rec_os").style    = "display: none";
+                        if(!json.req_rec.ram)   document.getElementById("tr_rec_ram").style   = "display: none";
+                        if(!json.req_rec.gpu)   document.getElementById("tr_rec_gpu").style   = "display: none";
+                        if(!json.req_rec.hdd)   document.getElementById("tr_rec_hdd").style   = "display: none";
+                        if(!json.req_rec.other) document.getElementById("tr_rec_other").style = "display: none";
+
+                        document.getElementById("rec_cpu").innerHTML   = json.req_rec.cpu;
+                        document.getElementById("rec_os").innerHTML    = json.req_rec.os;
+                        document.getElementById("rec_ram").innerHTML   = json.req_rec.ram;
+                        document.getElementById("rec_gpu").innerHTML   = json.req_rec.gpu;
+                        document.getElementById("rec_hdd").innerHTML   = json.req_rec.hdd;
+                        document.getElementById("rec_other").innerHTML = json.req_rec.other;
+                        document.getElementById("rec").classList       = "rec_style_view";
+                    };
+                    document.getElementById("wait-select").style = "display: none;";
+		            document.getElementById("game").style = "";
+                }
+            };
+            xhttp.open("GET", id+".json", true);
+            xhttp.send();
+        }else if(id == "666"){
+            document.body.innerHTML = "Xkeres";
+        }else{
+            document.body.innerHTML = "Uff... ¿Intentando buscar errores en la página verdad? <br> Acá no hay, en 5 segundos te regreso a Google porque si";
+            setInterval(() => window.location.href = "https://www.google.com", 5000);
+        }
+    }
+</script>
+</html>

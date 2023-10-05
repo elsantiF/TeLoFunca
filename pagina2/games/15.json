@@ -1,0 +1,21 @@
+{
+    "name": "Rocket League",
+    "developer": "Psyonix, Inc",
+    "date": "7 de Julio de 2015",
+    "cat": "Multijugador, Accion, Carreras, Deportes",
+    "req_min":{
+        "cpu": "2.4 GHz Dual core",
+        "os": "Windows 7",
+        "ram": "2GB RAM",
+        "gpu": "NVIDIA GTX 260 or ATI 4850",
+        "hdd": "7GB disponibles"
+    },
+    "req_rec":{
+        "cpu": "2.5+ GHz Quad core",
+        "os": "Windows 7",
+        "ram": "4GB RAM",
+        "gpu": "NVIDIA GTX 660 or better, ATI 7950 or better",
+        "hdd": "7GB Disponibles"
+    },
+    "img": ["rocket league 1.jpg","rocket league 2.jpg","rocket league 3.jpg","rocket league 4.jpg","rocket league 5.jpg","rocket league 6.jpg","rocket league 7.jpg","rocket league 8.jpg","rocket league 9.jpg","rocket league 10.jpg"]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Outlast 2",
+    "developer": "Red Barrels",
+    "date": "25 de abril de 2017",
+    "cat": "Survival Horror",
+    "req_min":{
+        "cpu": "Intel Core i3-530.",
+        "os": "Windows 7",
+        "ram": "4GB RAM",
+        "gpu": "1GB VRAM, NVIDIA Geforce GTX 260 / ATI Radeon HD 4870.",
+        "hdd": "30 GB espacio disponible."
+    },
+    "img": ["outlast2 2.jpg","outlast2 3.jpg","outlast2 4.jpg","outlast2 5.jpg","outlast2 5.jpg","outlast2 6.jpg","outlast2 7.jpg","outlast2 8.jpg","outlast2 9.jpg","outlast2 10.jpg"]
+}

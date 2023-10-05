@@ -1,0 +1,21 @@
+{
+    "name": "Portal",
+    "developer": "Valve",
+    "date": "10 octubre 2007",
+    "cat": "Puzzles",
+    "req_min":{
+        "cpu": "1.7 GHz",
+        "os": "Windows Vista",
+        "ram": "512MB RAM",
+        "gpu": "Compatible con Directx 8.1.",
+        "hdd": "4 gb espacio disponible."
+    },
+    "req_rec":{
+        "cpu": "Procesador Pentium 4 (3 GHz o más)",
+        "os": "Windows 7",
+        "ram": "1 GB RAM",
+        "gpu": "Compatible con Directx 9",
+        "hdd": "4 gb disponibles."
+    },
+    "img": ["Portal 1.jpg","Portal 2.jpg","Portal 3.jpg","Portal 4.jpg","Portal 5.jpg","Portal 6.jpg","Portal 7.jpg","Portal 8.jpg","Portal 9.jpg","Portal 10.jpg"]
+}

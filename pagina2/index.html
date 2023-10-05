@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="shortcut icon" href="../icono.png">
+	<title>Lista de juegos</title>
+</head>
+
+<body onload="load();">
+<div class="site-wrapper" id="body_div">
+	<header>
+		<h1 class="text_uppercase">Te lo funca?</h1>
+		<a  href="../pagina1/index.html"><button>Inicio</button></a>
+		<a><button>Lista de juegos</button></a>
+		<a href="../pagina3/index.html"><button>Como funciona</button></a>
+	</header>
+	<main>
+		<div id="game-select-div" class="game-select" style="display: none;">
+			<p>Seleccione un juego:</p>
+			<select id="game-sel" onchange="loadPage()">
+				<option></option>
+			</select>
+		</div>
+		<p id="wait-select">Espere mientras carga la página</p>
+		<div class="social-bar">
+			<a href="https://www.facebook.com" class="icon icon-facebook" target="_blank">
+				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+				width="1em" height="1em" viewBox="0 0 266.893 266.895" enable-background="new 0 0 266.893 266.895" xml:space="preserve">
+					<path id="Blue_1_" fill="#FFFFFF" d="M248.082,262.307c7.854,0,14.223-6.369,14.223-14.225V18.812
+					c0-7.857-6.368-14.224-14.223-14.224H18.812c-7.857,0-14.224,6.367-14.224,14.224v229.27c0,7.855,6.366,14.225,14.224,14.225 H248.082z"/>
+					<path id="f" fill="#3C5A99" d="M182.409,262.307v-99.803h33.499l5.016-38.895h-38.515V98.777c0-11.261,3.127-18.935,19.275-18.935
+					l20.596-0.009V45.045c-3.562-0.474-15.788-1.533-30.012-1.533c-29.695,0-50.025,18.126-50.025,51.413v28.684h-33.585v38.895h33.585 v99.803H182.409z"/>
+				</svg>
+			</a>
+					
+			<a href="https://www.twitter.com" class="icon icon-twitter" target="_blank">
+				<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg"
+				version="1.1" id="svg3626" viewBox="0 0 300.00006 244.18703" height="1em" width="1em">
+					<g transform="translate(-539.17946,-568.85777)" id="layer1">
+						<path id="path3611" fill="#FFFFFF" 
+						d="m 633.89823,812.04479 c 112.46038,0 173.95627,-93.16765 173.95627,-173.95625 0,-2.64628 -0.0539,-5.28062 -0.1726,-7.90305 11.93799,-8.63016 22.31446,-19.39999 30.49762,-31.65984 -10.95459,4.86937 -22.74358,8.14741 -35.11071,9.62551 12.62341,-7.56929 22.31446,-19.54304 26.88583,-33.81739 -11.81284,7.00307 -24.89517,12.09297 -38.82383,14.84055 -11.15723,-11.88436 -27.04079,-19.31655 -44.62892,-19.31655 -33.76374,0 -61.14426,27.38052 -61.14426,61.13233 0,4.79784 0.5364,9.46458 1.58538,13.94057 -50.81546,-2.55686 -95.87353,-26.88582 -126.02546,-63.87991 -5.25082,9.03545 -8.27852,19.53111 -8.27852,30.73006 0,21.21186 10.79366,39.93837 27.20766,50.89296 -10.03077,-0.30992 -19.45363,-3.06348 -27.69044,-7.64676 -0.009,0.25652 -0.009,0.50661 -0.009,0.78077 0,29.60957 21.07478,54.3319 49.0513,59.93435 -5.13757,1.40062 -10.54335,2.15158 -16.12196,2.15158 -3.93364,0 -7.76596,-0.38716 -11.49099,-1.1026 7.78383,24.2932 30.35457,41.97073 57.11525,42.46543 -20.92578,16.40207 -47.28712,26.17062 -75.93712,26.17062 -4.92898,0 -9.79834,-0.28036 -14.58427,-0.84634 27.05868,17.34379 59.18936,27.46396 93.72193,27.46396" />
+					</g>
+				</svg>
+			</a>
+		
+			<a href="https://www.gmail.com" class="icon icon-youtube" target="_blank">
+				<svg version="1.1" id="Слой_1" x="0px" y="0px" viewBox="0 0 300 300" enable-background="new 0 0 400 400" xml:space="preserve" width="1em" height="1em">
+					<g id="g5355">
+						<rect id="rect4" style="fill:#ff0000;fill-opacity:1" x="0" y="0" ry="49.137924" />
+						<g transform="matrix(5.9026317,0,0,5.9026317,521.39665,-711.31763)" id="g4167">
+							<path style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none" d="m 149.9375,79.222656 c 0,0 -63.218849,5.9e-5 -79.085938,4.123047 -8.495787,2.373802 -15.491408,9.3695 -17.865234,17.990237 -4.122953,15.8671 -4.123047,48.72656 -4.123047,48.72656 0,0 9.4e-5,32.9842 4.123047,48.60156 2.373826,8.62062 9.244506,15.49138 17.865234,17.86524 15.99203,4.24788 79.085938,4.24804 79.085938,4.24804 0,0 63.34418,-5e-5 79.21094,-4.12304 8.62079,-2.37381 15.49133,-9.11966 17.74023,-17.86524 4.24793,-15.74232 4.24805,-48.60156 4.24805,-48.60156 0,0 0.12484,-32.98446 -4.24805,-48.85156 -2.2489,-8.620737 -9.11944,-15.491334 -17.74023,-17.740237 -15.86676,-4.372847 -79.21094,-4.373047 -79.21094,-4.373047 z m -20.11523,40.480464 52.59961,30.35938 -52.59961,30.23438 0,-60.59376 z"
+							transform="matrix(0.16941596,0,0,0.16941596,-88.332912,120.50856)"
+							id="path4156"
+							inkscape:connector-curvature="0" />
+						</g>
+					</g>
+				</svg>
+			</a>
+		</div>
+	</main>
+	<footer>
+	</footer>
+</div>
+<script>
+
+	var json;
+	var mapGames= new Map();
+	var fuse
+
+	function load(){
+		var xhttp = new XMLHttpRequest();
+        xhttp.responseType = "text";
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+				var json = JSON.parse(this.responseText);
+				
+				for(var i = 0; i < json.data.length; i++){
+					mapGames.set(json.data[i].game, json.data[i].id);
+				}
+				
+				for(var i = 0; i < json.data.length; i++){
+					var opGame = document.createElement("option");
+					opGame.text = json.data[i].game;
+					document.getElementById("game-sel").add(opGame);
+				}
+				
+				document.getElementById("wait-select").style = "display: none;";
+				document.getElementById("game-select-div").style = "";
+            }
+        };
+        xhttp.open("GET", "games.json", true);
+		xhttp.send();
+	}
+
+	function loadPage(){
+		var selected = document.getElementById("game-sel").value;
+		var idSelected = mapGames.get(selected);
+		window.location.href = "games/game_template.html?id=" + idSelected;
+	}
+</script>
+</body>
+</html>

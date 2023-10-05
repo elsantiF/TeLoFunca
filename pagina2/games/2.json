@@ -1,0 +1,21 @@
+{
+    "name": "League Of Legends",
+    "developer": "Riot Games",
+    "date": "27 de octubre de 2009",
+    "cat": "MOBA",
+    "req_min":{
+        "cpu": "2 GHz",
+        "os": "Windows XP (solo Service Pack 3), Windows Vista, Windows 7, Windows 8 o Windows 10",
+        "ram": "1GB de RAM (Se recomiendan 2GB de RAM o más para Windows Vista y Windows 7)",
+        "gpu": "Tarjeta gráfica compatible con Shader 2.0. Compatible con DirectX v9.0c o superior",
+        "hdd": "8 GB de espacio libre en el disco duro"
+    },
+	"req_rec":{
+        "cpu": "3 GHz",
+        "os": " Windows XP con el último Service Pack instalado, Windows Vista con el último Service Pack instalado, Windows 7 con el último Service Pack instalado, Windows 8.1 o Windows 10 ",
+        "ram": "2GB de RAM (Se recomiendan 4GB de RAM o más para Windows Vista y Windows 7)",
+        "gpu": "Tarjeta gráfica GeForce 8800 o equivalente (GPU dedicada con 512 MB de memoria gráfica (VRAM) o más)",
+        "hdd": "12 GB de espacio libre en el disco duro"
+    },
+    "img": ["lol1.jpg","lol2.jpg","lol3.jpg","lol4.jpg","lol5.jpg","lol6.jpg","lol7.jpg","lol8.jpg","lol9.jpg","lol10.jpg"]
+}

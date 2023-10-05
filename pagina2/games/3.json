@@ -1,0 +1,14 @@
+{
+    "name": "Counter-Strike: Global Offensive",
+    "developer": "Valve",
+    "date": "21 de agosto de 2012",
+    "cat": "FPS",
+    "req_min":{
+        "cpu": "Intel Core 2 Duo E6600 ó AMD Phenom X3 8750 Procesador ó superior ",
+        "os": "Windows 7/Vista/XP",
+        "ram": "2 GB",
+        "gpu": "Debe de ser de 256MB, soporte para DirectX 9 y con soporte para Pixel Shader 3.0 ",
+        "hdd": "8 GB"
+    },
+    "img": ["csgo.jpg","csgo2.jpg","csgo3.jpg","csgo4.jpg","csgo5.jpg","csgo6.jpg","csgo7.jpg","csgo8.jpg","csgo8.jpg","csgo9.jpg","csgo10.jpg"]
+}

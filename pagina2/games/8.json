@@ -1,0 +1,19 @@
+{
+"name": "Farcry 5",
+"developer": "Ubisoft",
+"date": "27 de marzo de 2018",
+"cat": "Rol de acción",
+"req_min":{
+    "cpu": "Intel Core i5-2400 @ 3.1 GHz o AMD FX-6300 @ 3.5 GHz o equivalente.",
+    "os": "Windows 7, 8.1 o 10 64 bit",
+    "ram": "8GB RAM",
+    "gpu": "NVIDIA GeForce GTX 670 o AMD R9 270 (2GB VRAM con Shader Model 5.0 o superior)"
+    },
+"req_rec":{
+    "cpu": "Intel Core i7-4770 @ 3.4 GHz o AMD Ryzen 5 1600 @ 3.2 GHz o equivalente",
+    "os": "Windows 7, 8.1 o 10 64 bit",
+    "ram": "8GB RAM",
+    "gpu": "NVIDIA GeForce GTX 970 o AMD R9 290X (4GB VRAM con Shader Model 5.0 o superior)"
+    },
+    "img": ["farcry5 1.jpg","farcry5 2.jpg","farcry5 3.jpg","farcry5 4.jpg","farcry5 5.jpg","farcry5 6.jpg","farcry5 7.jpg","farcry5 8.jpg","farcry5 9.jpg","farcry5 10.jpg"]
+}

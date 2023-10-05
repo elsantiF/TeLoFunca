@@ -1,0 +1,14 @@
+{
+    "name": "Portal 2",
+    "developer": "Valve",
+    "date": "19 Abril 2011",
+    "cat": "Puzzles",
+    "req_min":{
+        "cpu": "Dual Core a 3.0Ghz",
+        "os": "Windows Vista",
+        "ram": "2GB RAM",
+        "gpu": "128Mb VRAM",
+        "hdd": "8 GB espacio disponible."
+    },
+    "img": ["Portal 2 1.jpg","Portal 2 2.jpg","Portal 2 3.jpg","Portal 2 4.jpg","Portal 2 5.jpg","Portal 2 6.jpg","Portal 2 7.jpg","Portal 2 8.jpg","Portal 2 9.jpg","Portal 2 10.jpg"]
+}

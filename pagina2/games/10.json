@@ -1,0 +1,21 @@
+{
+    "name": "For Honor",
+    "developer": "Ubisoft Montereal",
+    "date": "14 de febrero de 2017",
+    "cat": "Multijugador, PvP, Accion",
+    "req_min":{
+        "cpu": "Intel Core i3-550 | AMD Phenom II X4 955 or equivalent",
+        "os": "Windows 7, Windows 8.1, Windows 10",
+        "ram": "4GB de RAM",
+        "gpu": "NVIDIA GeForce GTX660/GTX750ti/GTX950/GTX1050 with 2 GB VRAM o más | AMD Radeon HD6970/HD7870/R9 270/R9 370/RX460 con 2GB VRAM",
+        "hdd": "40GB de espacio disponible"
+        },
+    "req_rec":{
+        "cpu": "Intel Core i5-2500K | AMD FX-6350 or equivalent",
+        "os": "Windows 7, Windows 8.1, Windows 10",
+        "ram": "8GB de RAM",
+        "gpu": "NVIDIA GeForce GTX680/GTX760/GTX970/GTX1060 with 2 GB VRAM o más | AMD Radeon R9 280X/R9 380/RX470 con 2GB VRAM",
+        "hdd": "40GB de espacio disponible"
+        },
+        "img": ["forhonor2.jpg","forhonor3.jpg","forhonor4.jpg","forhonor5.jpg","forhonor6.jpg","forhonor7.jpg","forhonor8.jpg","forhonor9.jpg","forhonor10.jpg"]
+    }
